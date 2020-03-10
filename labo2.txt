@@ -1,0 +1,18 @@
+mkdir labo2
+cd labo2
+git init
+touch readme.txt
+git add readme.txt
+git config user.name "Dawid Plotczyk"
+git config user.email "dawidpotczyk@gmail.com"
+git commit -m "dodano plik readme"
+git log
+touch license.txt
+vim license.txt
+git add license.txt
+git status
+git commit -m "nowy commit"
+vim license.txt
+git add license.txt
+git commit
+git reset
